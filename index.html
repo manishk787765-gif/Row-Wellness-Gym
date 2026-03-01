@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Row Wellness Gym</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:linear-gradient(180deg,#111827,#1f2933);
+  color:#f5f5f5;
+}
+
+/* HEADER */
+header{
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(8px);
+  padding:20px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+}
+
+header h1{
+  color:#f43f5e;
+  letter-spacing:2px;
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:25px;
+  font-size:14px;
+}
+
+nav a:hover{
+  color:#f43f5e;
+}
+
+/* HERO */
+.hero{
+  padding:120px 8%;
+  background:url("https://images.unsplash.com/photo-1558611848-73f7eb4001a1") center/cover no-repeat;
+}
+
+.hero h2{
+  font-size:42px;
+  max-width:500px;
+}
+
+.hero p{
+  margin:20px 0;
+  max-width:480px;
+  color:#e5e7eb;
+}
+
+.hero button{
+  background:#f43f5e;
+  border:none;
+  padding:14px 30px;
+  border-radius:30px;
+  font-size:15px;
+  cursor:pointer;
+}
+
+/* SECTION */
+section{
+  padding:90px 8%;
+}
+
+section h2{
+  color:#f43f5e;
+  margin-bottom:20px;
+  font-size:32px;
+}
+
+p{
+  color:#d1d5db;
+  line-height:1.8;
+}
+
+/* CARDS */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+  margin-top:30px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  padding:25px;
+  border-radius:18px;
+}
+
+.card img{
+  width:100%;
+  border-radius:14px;
+  margin-bottom:15px;
+}
+
+.rating{
+  color:gold;
+  margin:8px 0;
+}
+
+/* FEATURES */
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+  margin-top:40px;
+}
+
+.feature{
+  background:rgba(0,0,0,0.3);
+  padding:30px;
+  border-radius:20px;
+}
+
+/* FOOTER */
+footer{
+  background:#020617;
+  padding:30px;
+  text-align:center;
+  color:#9ca3af;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+    
+
+<header>
+  <h1>Row Wellness Gym</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#branches">Branches</a>
+    <a href="#trainers">Trainers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <h2>Transform Your Body With Elite Training</h2>
+  <p>Premium fitness club with world-class equipment, certified trainers, and powerful results.</p>
+  <button>Join Now</button>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Row Wellness Gym</h2>
+  <p>
+    Row Wellness Gym is a next-generation fitness brand designed for serious
+    transformation. From beginners to professional athletes, we provide
+    structured programs, advanced machines, and expert guidance to help
+    members achieve peak performance.
+  </p>
+
+  <div class="features">
+    <div class="feature">
+      <h3>🏋️ Modern Equipment</h3>
+      <p>Latest imported machines for strength & cardio training.</p>
+    </div>
+    <div class="feature">
+      <h3>🔥 Fat Loss Programs</h3>
+      <p>Scientifically designed weight-loss & body-toning plans.</p>
+    </div>
+    <div class="feature">
+      <h3>⏰ Flexible Timings</h3>
+      <p>Morning & evening batches with personal attention.</p>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- BRANCHES -->
+<section id="branches">
+  <h2>Our Branches</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+      <h3>Row Wellness Gym – jaipur</h3>
+      <p>24x7 | Crossfit | Cardio Zone</p>
+      <div class="rating">★★★★★ 4.9</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48">
+      <h3>Row Wellness Gym – Delhi</h3>
+      <p>Personal Training | Strength</p>
+      <div class="rating">★★★★☆ 4.6</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1571019613576-2b22c76fd955">
+      <h3>Row Wellness Gym –  Mumbai</h3>
+      <p>Weight Loss | Transformation</p>
+      <div class="rating">★★★★★ 4.8</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About Workout Wellness Gym (Desktop Friendly) ===== -->
+<section id="about" style="padding: 80px 50px; background-color: #000000; font-family: Arial, sans-serif;">
+  <div style="max-width: 1200px; margin: auto;">
+    <h2 style="font-size: 42px; color: #ffffff; text-align: center; margin-bottom: 40px;">About Row Wellness Gym</h2>
+    
+    <div style="display: flex; justify-content: space-between; gap: 50px; flex-wrap: wrap;">
+      <!-- Left Column: Description -->
+      <div style="flex: 1 1 500px; min-width: 300px;">
+        <p style="font-size: 18px; color: #ffffff; line-height: 1.8;">
+          Modern fitness center focused on <strong>strength, endurance, and overall wellness</strong>. Certified trainers, advanced equipment, and personalized workout plans for every fitness level.
+        </p>
+        <ul style="list-style: none; padding: 0; margin-top: 30px;">
+          <li style="margin-bottom: 12px;">✅ Weight Training & Cardio Programs</li>
+          <li style="margin-bottom: 12px;">✅ Functional & Fat Loss Training</li>
+          <li style="margin-bottom: 12px;">✅ Personalized Workout & Diet Plans</li>
+          <li style="margin-bottom: 12px;">✅ Clean, Hygienic & Motivating Environment</li>
+          <li style="margin-bottom: 12px;">✅ Suitable for Beginners to Advanced Athletes</li>
+        </ul>
+      </div>
+
+      <!-- Right Column: Image / Optional Graphic -->
+      <div style="flex: 1 1 500px; min-width: 300px; text-align: center;">
+        <img src="This Comeback is personal.jpeg">
+      </div>
+    </div>
+
+    <!-- Branches Section -->
+    <h3 style="font-size: 32px; color: #ffffff; text-align: center; margin: 60px 0 30px;">More Branches coming soon</h3>
+    <div style="display: flex; justify-content: space-around; gap: 30px; flex-wrap: wrap;">
+      <div style="background-color: #fff; padding: 30px; border-radius: 12px; width: 300px; box-shadow: 0 6px 16px rgba(0,0,0,0.1); text-align: center;">
+        <h4 style="color: #000000; margin-bottom: 12px;">kota</h4>
+       
+      </div>
+      <div style="background-color: #fff; padding: 30px; border-radius: 12px; width: 300px; box-shadow: 0 6px 16px rgba(0,0,0,0.1); text-align: center;">
+        <h4 style="color: #000000; margin-bottom: 12px;">Indore</h4>
+       
+      </div>
+      <div style="background-color: #fff; padding: 30px; border-radius: 12px; width: 300px; box-shadow: 0 6px 16px rgba(0,0,0,0.1); text-align: center;">
+        <h4 style="color: #000000; margin-bottom: 12px;">pune</h4>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+   
+      
+
+
+<!-- TRAINERS -->
+<!-- TRAINERS -->
+<section id="trainers">
+  <h2>Meet Our Elite Trainers</h2>
+  <p>
+    Our trainers are internationally certified professionals dedicated to
+    helping you achieve peak performance, strength, and confidence through
+    personalized training programs.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1550345332-09e3ac987658">
+      <h3>Neha sharma </h3>
+      <p><strong>Head Strength Coach</strong></p>
+      <p>
+        10+ years of experience in bodybuilding, powerlifting, and
+        muscle hypertrophy training. Specializes in strength building
+        and competition-level preparation.
+      </p>
+      <div class="rating">★★★★★ 4.9</div>
+    </div>
+
+    <div class="card">
+      <img src="How To Become A PureGym Personal Trainer.jpeg">
+      <h3>Rahul Verma</h3>
+      <p><strong>Transformation Specialist</strong></p>
+      <p>
+        Expert in fat loss, body recomposition, and lifestyle coaching.
+        Known for helping clients achieve visible transformations
+        within 90 days using science-based methods.
+      </p>
+      <div class="rating">★★★★☆ 4.7</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00">
+      <h3>Arjun Singh</h3>
+      <p><strong>Functional & Mobility Coach</strong></p>
+      <p>
+        Specialist in functional training, flexibility, and injury
+        prevention. Focuses on building long-term fitness, balance,
+        and athletic performance.
+      </p>
+      <div class="rating">★★★★★ 4.8</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 jaipur-raja park-panch wati</p>
+  <p>📞 +91 6377077574</p>
+  <p>✉️ manishk787765@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 IronHub Athletica | Designed for Champions
+</footer>
+
+</body>
+</html>
